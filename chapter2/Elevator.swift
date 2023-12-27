@@ -8,11 +8,42 @@
 import SwiftUI
 
 struct Elevator: View {
+    
+    @State var elevator = ElevatorStruct(level: 4)
+  
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    VStack{
+        Text("층수 \(elevator.level)층")
+        HStack{
+            Button(action: {
+                elevator.goUp()
+            }, label: {
+                Text("위로")
+            })
+            Button(action: {
+                elevator.goDown()
+            }, label: {
+                Text("아래로")
+            })
+        }
     }
 }
-
-#Preview {
-    Elevator()
 }
+
+struct ElevatorStruct {
+    var level : Int = 1
+    
+    mutating func goUp()  {
+        level =  level + 1;
+    }
+    mutating func goDown(){
+        level = level - 1;
+    }
+}
+#if DEBUG
+struct Elevator_Previews: PreviewProvider {
+    static var previews: some View {
+        Elevator()
+    }
+}
+#endif

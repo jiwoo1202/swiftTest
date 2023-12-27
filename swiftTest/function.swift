@@ -8,9 +8,28 @@
 import SwiftUI
 
 struct function: View {
+    @State var number : Int  = 4;
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Button(action: {
+                number = plusFive(num: number)
+            }, label: {
+                Text("+5")
+            })
+            Text("숫자는 ? \(number)")
+        }
+      
     }
+  
+    /// 앞에 추가해주는 방법
+//    func plusFive(numTest num : Int) -> Int {
+//        return num + 5;
+//    }
+    
+    func plusFive( num : Int) -> Int {
+        return num + 5;
+    }
+    
 }
 
 #Preview {

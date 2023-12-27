@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct loop: View {
+    let names : [String] = ["dasom" , "jiwoo","human"]
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ForEach(names, id: \.self) { items in
+            Text(items)
+        }
     }
 }
 
