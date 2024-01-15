@@ -8,11 +8,36 @@
 import SwiftUI
 
 struct Choice: View {
+    var direction: Directionsd = .north
+    var member : Member = .jiwoo
+    var menu : Menu = .steak("미디움")
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Text("방향은 \(direction.rawValue)입니다")
+        }
+        
     }
+}
+
+enum Member: String {
+    case jiwoo , dasom, human
+}
+
+enum Menu {
+    case pasta
+    case pizza
+    case steak(String)
+}
+
+enum Directionsd: String{
+    case north = "북"
+    case west = "서"
+    case east = "동"
+    case south = "남"
 }
 
 #Preview {
     Choice()
 }
+
+
