@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		93016D012B3B21F2008822B7 /* loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93016D002B3B21F2008822B7 /* loop.swift */; };
 		93016D032B3B2475008822B7 /* function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93016D022B3B2475008822B7 /* function.swift */; };
+		932D0CA72B582BB200C82BBD /* Generic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D0CA62B582BB200C82BBD /* Generic.swift */; };
 		932F093B2B3C63410092C606 /* Elevator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932F093A2B3C63410092C606 /* Elevator.swift */; };
 		932F093F2B3C6A460092C606 /* diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932F093E2B3C6A460092C606 /* diff.swift */; };
 		9333F38C2B3B18DB00307FF1 /* MyCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9333F38B2B3B18DB00307FF1 /* MyCollections.swift */; };
@@ -49,6 +50,7 @@
 /* Begin PBXFileReference section */
 		93016D002B3B21F2008822B7 /* loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loop.swift; sourceTree = "<group>"; };
 		93016D022B3B2475008822B7 /* function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = function.swift; sourceTree = "<group>"; };
+		932D0CA62B582BB200C82BBD /* Generic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generic.swift; sourceTree = "<group>"; };
 		932F093A2B3C63410092C606 /* Elevator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevator.swift; sourceTree = "<group>"; };
 		932F093E2B3C6A460092C606 /* diff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diff.swift; sourceTree = "<group>"; };
 		9333F38B2B3B18DB00307FF1 /* MyCollections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollections.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				9342A9352B4C310C004B88C7 /* Sample.swift */,
 				93834E3C2B558B1000DC9CFB /* exception.swift */,
 				93834E3E2B55907400DC9CFB /* protocols.swift */,
+				932D0CA62B582BB200C82BBD /* Generic.swift */,
 			);
 			path = chapter2;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				9333F38E2B3B1F3D00307FF1 /* condition.swift in Sources */,
 				93016D012B3B21F2008822B7 /* loop.swift in Sources */,
 				93834E3F2B55907400DC9CFB /* protocols.swift in Sources */,
+				932D0CA72B582BB200C82BBD /* Generic.swift in Sources */,
 				9342A9342B4C2D5A004B88C7 /* option.swift in Sources */,
 				9386A0D22B4460E900901C9A /* Choice.swift in Sources */,
 				93E28A792B37F75900D4F5C3 /* swiftTestApp.swift in Sources */,
