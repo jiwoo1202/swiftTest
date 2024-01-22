@@ -8,11 +8,25 @@
 import SwiftUI
 
 struct MyButton: View {
+    var buttonTitle: String
+    var buttonColor : Color
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button {
+            
+        }  label: {
+            Text(buttonTitle)
+                .padding()
+                .background(buttonColor)
+                .foregroundColor(.white)
+                .font(.headline)
+                .cornerRadius(10)
+        }
     }
 }
 
-#Preview {
-    MyButton()
+struct MyButton_Preview : PreviewProvider{
+    static var previews: some View{
+        MyButton(buttonTitle: "button4", buttonColor: .brown)
+    }
 }
