@@ -15,6 +15,9 @@
 		932F093F2B3C6A460092C606 /* diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932F093E2B3C6A460092C606 /* diff.swift */; };
 		9333F38C2B3B18DB00307FF1 /* MyCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9333F38B2B3B18DB00307FF1 /* MyCollections.swift */; };
 		9333F38E2B3B1F3D00307FF1 /* condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9333F38D2B3B1F3D00307FF1 /* condition.swift */; };
+		9335A4E02B66A17300713A11 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9335A4DF2B66A17300713A11 /* Setting.swift */; };
+		9335A4E32B66A81B00713A11 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9335A4E22B66A81B00713A11 /* Modal.swift */; };
+		9335A4E52B66A91900713A11 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9335A4E42B66A91900713A11 /* Detail.swift */; };
 		9342A9322B4C29FB004B88C7 /* optionNull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9342A9312B4C29FB004B88C7 /* optionNull.swift */; };
 		9342A9342B4C2D5A004B88C7 /* option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9342A9332B4C2D5A004B88C7 /* option.swift */; };
 		9342A9362B4C310C004B88C7 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9342A9352B4C310C004B88C7 /* Sample.swift */; };
@@ -62,6 +65,9 @@
 		932F093E2B3C6A460092C606 /* diff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diff.swift; sourceTree = "<group>"; };
 		9333F38B2B3B18DB00307FF1 /* MyCollections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollections.swift; sourceTree = "<group>"; };
 		9333F38D2B3B1F3D00307FF1 /* condition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = condition.swift; sourceTree = "<group>"; };
+		9335A4DF2B66A17300713A11 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		9335A4E22B66A81B00713A11 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		9335A4E42B66A91900713A11 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
 		9342A9312B4C29FB004B88C7 /* optionNull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optionNull.swift; sourceTree = "<group>"; };
 		9342A9332B4C2D5A004B88C7 /* option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = option.swift; sourceTree = "<group>"; };
 		9342A9352B4C310C004B88C7 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
@@ -115,6 +121,7 @@
 		932D0CD22B58368400C82BBD /* WarmUp */ = {
 			isa = PBXGroup;
 			children = (
+				9335A4E12B66A80B00713A11 /* 03 */,
 				93778F8F2B5ECCCE004EC0C6 /* 01 */,
 				93778F8C2B5EC907004EC0C6 /* 02 */,
 			);
@@ -138,10 +145,20 @@
 			path = chapter2;
 			sourceTree = "<group>";
 		};
+		9335A4E12B66A80B00713A11 /* 03 */ = {
+			isa = PBXGroup;
+			children = (
+				9335A4E22B66A81B00713A11 /* Modal.swift */,
+				9335A4E42B66A91900713A11 /* Detail.swift */,
+			);
+			path = 03;
+			sourceTree = "<group>";
+		};
 		93778F8C2B5EC907004EC0C6 /* 02 */ = {
 			isa = PBXGroup;
 			children = (
 				93778F8D2B5EC927004EC0C6 /* ListLoop.swift */,
+				9335A4DF2B66A17300713A11 /* Setting.swift */,
 			);
 			path = 02;
 			sourceTree = "<group>";
@@ -357,6 +374,7 @@
 				93778F8B2B5EC440004EC0C6 /* Onboarding.swift in Sources */,
 				93016D012B3B21F2008822B7 /* loop.swift in Sources */,
 				93834E3F2B55907400DC9CFB /* protocols.swift in Sources */,
+				9335A4E02B66A17300713A11 /* Setting.swift in Sources */,
 				932D0CA72B582BB200C82BBD /* Generic.swift in Sources */,
 				9342A9342B4C2D5A004B88C7 /* option.swift in Sources */,
 				936D84AE2B5D749100C82A94 /* MyButton.swift in Sources */,
@@ -366,9 +384,11 @@
 				936D84AA2B5D6BEE00C82A94 /* SimpleView.swift in Sources */,
 				93834E3D2B558B1000DC9CFB /* exception.swift in Sources */,
 				9333F38C2B3B18DB00307FF1 /* MyCollections.swift in Sources */,
+				9335A4E52B66A91900713A11 /* Detail.swift in Sources */,
 				93778F8E2B5EC927004EC0C6 /* ListLoop.swift in Sources */,
 				936D84AC2B5D6F9200C82A94 /* Layout.swift in Sources */,
 				932F093B2B3C63410092C606 /* Elevator.swift in Sources */,
+				9335A4E32B66A81B00713A11 /* Modal.swift in Sources */,
 				932F093F2B3C6A460092C606 /* diff.swift in Sources */,
 				93016D032B3B2475008822B7 /* function.swift in Sources */,
 				9342A9362B4C310C004B88C7 /* Sample.swift in Sources */,

@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct Modal: View {
+    
+    @State var showModal: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Text("메일 페지이 입니다")
+            Button{
+                showModal = true
+            }label: {
+                Text("Modal 화면 전환")
+            }
+        }
+        .sheet(isPresented: $showModal, content: {
+            Detail(isPresented: $showModal)
+        })
     }
 }
 
